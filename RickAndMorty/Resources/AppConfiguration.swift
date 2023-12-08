@@ -9,6 +9,6 @@ import Foundation
 
 
 final class AppConfiguration {
-    lazy var apiBaseUrl = ""
+    lazy var apiBaseUrl:URL = URL("https://rickandmortyapi.com")!
     
 }

@@ -24,6 +24,10 @@
 		37B76D132B234B4A00D27424 /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B76D122B234B4A00D27424 /* RMService.swift */; };
 		37B76D152B234B5D00D27424 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B76D142B234B5D00D27424 /* RMRequest.swift */; };
 		37B76D172B234BC800D27424 /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B76D162B234BC800D27424 /* RMEndpoint.swift */; };
+		37B76D192B234FD300D27424 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B76D182B234FD300D27424 /* RMOrigin.swift */; };
+		37B76D1B2B23507900D27424 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B76D1A2B23507900D27424 /* RMSingleLocation.swift */; };
+		37B76D1D2B2351C000D27424 /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B76D1C2B2351C000D27424 /* RMCharacterStatus.swift */; };
+		37B76D1F2B2351E300D27424 /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B76D1E2B2351E300D27424 /* RMCharacterGender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +50,10 @@
 		37B76D122B234B4A00D27424 /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
 		37B76D142B234B5D00D27424 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 		37B76D162B234BC800D27424 /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
+		37B76D182B234FD300D27424 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		37B76D1A2B23507900D27424 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
+		37B76D1C2B2351C000D27424 /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
+		37B76D1E2B2351E300D27424 /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +177,10 @@
 				37B76D0C2B23494E00D27424 /* RMLocation.swift */,
 				37B76D0E2B23495E00D27424 /* RMCharacter.swift */,
 				37B76D102B23497200D27424 /* RMEpisode.swift */,
+				37B76D182B234FD300D27424 /* RMOrigin.swift */,
+				37B76D1A2B23507900D27424 /* RMSingleLocation.swift */,
+				37B76D1C2B2351C000D27424 /* RMCharacterStatus.swift */,
+				37B76D1E2B2351E300D27424 /* RMCharacterGender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -274,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B76D192B234FD300D27424 /* RMOrigin.swift in Sources */,
 				3737813E2A11C3DF00F2BD06 /* Cancellable.swift in Sources */,
+				37B76D1D2B2351C000D27424 /* RMCharacterStatus.swift in Sources */,
 				374CF1412A10986100981849 /* RMSettingsViewController.swift in Sources */,
 				374CF1182A1091E900981849 /* RMTabController.swift in Sources */,
 				374CF1382A10980D00981849 /* RMCharacterViewController.swift in Sources */,
@@ -285,7 +299,9 @@
 				37B76D0D2B23494E00D27424 /* RMLocation.swift in Sources */,
 				373781402A11C40400F2BD06 /* DispatchQueueType.swift in Sources */,
 				37B76D152B234B5D00D27424 /* RMRequest.swift in Sources */,
+				37B76D1B2B23507900D27424 /* RMSingleLocation.swift in Sources */,
 				37B76D132B234B4A00D27424 /* RMService.swift in Sources */,
+				37B76D1F2B2351E300D27424 /* RMCharacterGender.swift in Sources */,
 				37B76D172B234BC800D27424 /* RMEndpoint.swift in Sources */,
 				374CF13F2A10985200981849 /* RMEpisodeViewController.swift in Sources */,
 				37B76D0F2B23495E00D27424 /* RMCharacter.swift in Sources */,
